@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E51EFCFF-432A-462D-96E3-D770B1413040}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aaaa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aaaa.Designer.cs">
+      <DependentUpon>aaaa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="comboboxlistbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="comboboxlistbox.Designer.cs">
+      <DependentUpon>comboboxlistbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formmenus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formmenus.Designer.cs">
+      <DependentUpon>Formmenus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ketnoiDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ketnoiDB.Designer.cs">
+      <DependentUpon>ketnoiDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ketnoiquanlycuahang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ketnoiquanlycuahang.Designer.cs">
+      <DependentUpon>ketnoiquanlycuahang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NguyenKhacPhuocbai1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NguyenKhacPhuocbai1.Designer.cs">
+      <DependentUpon>NguyenKhacPhuocbai1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NguyenKhacPhuocbai2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NguyenKhacPhuocbai2.Designer.cs">
+      <DependentUpon>NguyenKhacPhuocbai2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NguyenKhacPhuocbai3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NguyenKhacPhuocbai3.Designer.cs">
+      <DependentUpon>NguyenKhacPhuocbai3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NguyenKhacPhuocbai4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NguyenKhacPhuocbai4.Designer.cs">
+      <DependentUpon>NguyenKhacPhuocbai4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="weblink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="weblink.Designer.cs">
+      <DependentUpon>weblink.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="aaaa.resx">
+      <DependentUpon>aaaa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="comboboxlistbox.resx">
+      <DependentUpon>comboboxlistbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formmenus.resx">
+      <DependentUpon>Formmenus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ketnoiDB.resx">
+      <DependentUpon>ketnoiDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ketnoiquanlycuahang.resx">
+      <DependentUpon>ketnoiquanlycuahang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NguyenKhacPhuocbai1.resx">
+      <DependentUpon>NguyenKhacPhuocbai1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NguyenKhacPhuocbai2.resx">
+      <DependentUpon>NguyenKhacPhuocbai2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NguyenKhacPhuocbai3.resx">
+      <DependentUpon>NguyenKhacPhuocbai3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NguyenKhacPhuocbai4.resx">
+      <DependentUpon>NguyenKhacPhuocbai4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="weblink.resx">
+      <DependentUpon>weblink.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="luuanh\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
